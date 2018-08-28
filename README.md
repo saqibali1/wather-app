@@ -1,3 +1,3 @@
 # weather-app
 
- weather app utl https://saqibali1.github.io/wather-app/
+ weather app url https://saqibali1.github.io/wather-app/
