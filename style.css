@@ -1,0 +1,154 @@
+/*html{
+     overflow: scroll;
+    margin: 0;
+    padding: 0;
+     background-color: #6c7f80;*/
+    
+     /*height: 100vh;*/
+/*}*/
+
+html, body{
+    /*width: 100%;*/
+    height: 100%;
+   
+    font-family: 'Roboto', sans-serif;
+}
+.bg{
+    min-width: 300px;
+    /*background-color: #00000075;*/
+    height: 100%;
+    width: 100%;
+   
+
+}
+body{
+    min-width: 300px;
+   
+    /*min-height: 900px;*/
+    /*background: url(img/clo.png);*/
+    /*background-size: cover;*/
+    /*color: black;*/
+    align-items: center;
+     background: url(img/sun.jpg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    color: #ffffff;
+    margin: 0 ;
+   /* position: relative;*/
+}
+
+.input-group {
+    margin: 1em auto;
+    max-width: 500px;
+ 
+}
+
+.container {
+    width: 100%;
+  
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+.temp {
+    font-size: 4em;
+}
+
+.description {
+    font-size: 2em;
+}
+.hr1, .hr2{
+    display: none;
+    border: 2px solid white;
+}
+.weather-info{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    padding:16px;
+    
+    /*width: 500px;
+    height: 300px;*/
+    /*color: black;*/
+
+
+
+}
+
+.divDays{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+ 
+    width: 100%;
+
+}
+
+ .divDays>*{
+    flex: 1;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    padding:16px;
+   
+
+ }
+
+.city-name {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.none-h{
+    font-size: 90px;
+}
+
+.none{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+
+.arrow{
+    font-size: 80px;
+   
+}
+
+
+
+@media only screen and (max-width: 430px) {
+    .input-group {
+        width: 250px;
+    }
+    .input-group input {
+        width: 220px;
+    }
+   
+}
+
+
+@media only  (min-width: 255px) {
+  body{
+    width: 255px;
+    font-size: 40px;
+  }
+
+  .bg{
+    width: 255px;
+  }
+}
+
+
+
